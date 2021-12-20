@@ -14259,18 +14259,26 @@ a.anchor-link {
 
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Analysis-of-The-Effects-of-Drug-Testing-and-Sex-on-Power-Lifting-Performance">Analysis of The Effects of Drug Testing and Sex on Power Lifting Performance<a class="anchor-link" href="#Analysis-of-The-Effects-of-Drug-Testing-and-Sex-on-Power-Lifting-Performance">&#182;</a></h1><h2 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">&#182;</a></h2><p>Powerlifting (PL) is a sport in which an athlete performs three barbell lifts, the squat, bench press, and deadlift, with the objective of lifting the maximum weight for each lift. The athletes have three attempts for each lift, and their "total" is the sum of their heaviest completed lift for each movement which the judges deem valid. At a powerlifting meet, an athlete's total will decide their placing in their weight class. There exist weight classes for male and female lifters, and sometimes there are subclasses dependent upon age, such as Men's 83 kg Jr.s, which refers to men between ages 18 and 23.</p>
+<h1 id="Analysis-of-The-Effects-of-Drug-Testing-and-Sex-on-Power-Lifting-Performance">Analysis of The Effects of Drug Testing and Sex on Power Lifting Performance<a class="anchor-link" href="#Analysis-of-The-Effects-of-Drug-Testing-and-Sex-on-Power-Lifting-Performance">&#182;</a></h1><p>By: Alexander Straub, Anudeep Metuku</p>
+<h2 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">&#182;</a></h2><p>Powerlifting (PL) is a sport in which an athlete performs three barbell lifts, the squat, bench press, and deadlift, with the objective of lifting the maximum weight for each lift. The athletes have three attempts for each lift, and their "total" is the sum of their heaviest completed lift for each movement which the judges deem valid. At a powerlifting meet, an athlete's total will decide their placing in their weight class. There exist weight classes for male and female lifters, and sometimes there are subclasses dependent upon age, such as Men's 83 kg Jr.s, which refers to men between ages 18 and 23.</p>
 <p>There exist many federations in powerlifting, but the largest in the U.S. are the USAPL (USA Powerlifting) and USPA (US Powerlifting Association). The USAPL is the largest drug-tested federation and the USPA is the largest untested federation. Apart from the minor differences of slightly different types of equipment used (such as the barbell type), the major difference is the drug testing. A popular point of discussion in PL, and sports in general, is the efficacy of drug testing and its effects on performance.</p>
 <p>The IPF (International powerlifting federation), is a drug-tested federation that is equivalent to the Olympics in that it is the most prestigious international committee. The IPF holds world championships yearly to which countries send their best lifter per sex-age-weight class. They are a "heavily" drug tested sport with the reputation associated with drug testing being of particular importance.</p>
 <p>The common thought is that untested federations like USPA have higher totals at the elite level for a given sex and weight class. This is because elite lifters in an untested federation are probably choosing to compete in untested feds to maximize their performance using PEDs whereas elite tested lifters would have a lower performance. Though this belief is common, the talent pool of powerlifting is growing as the sport grows popular. As a result, both tested and untested powerlifting are seeing higher totals over time. In this analysis, we will see the differences in the distribution of totals across the USPA and USAPL across sexes and weight classes.</p>
 <p>While less nuanced than drug testing, the effects of sex and weight classes are more substantial. Generally, male lifters have higher amounts of lean body mass when total body weight is equated. Lean body mass is highly correlated with strength performance and is the largest predictor of performance. Thus male lifters tend to be stronger overall at the elite level in a given weight class, and heavier lifters tend to be stronger overall. We will also explore to the extent to which (and contexts under which) these notions are true.</p>
 <p>Since the total dataset is very large to work with, and the biggest talent is in the USA, we will look at the USAPL and USPA. In addition, we will look at the IPF to compare USA talent to the aggregate of international talent.</p>
-<p>The openpowerlifting.org website is an open-source project that has a record of almost all powerlifting meets in the world with entries representing a lifter and meet combination with relevant information.</p>
+<p>The openpowerlifting.org website is an open-source project that has a record of almost all powerlifting meets in the world with entries representing a lifter and meet combination with relevant information. Below are links to the dataset and supplementary information about powerlifting and relevant research about drug testing and sex effects on performance.</p>
 <p><a href="https://openpowerlifting.gitlab.io/opl-csv/bulk-csv-docs.html">Description of Dataset</a></p>
 <p><a href="https://openpowerlifting.gitlab.io/opl-csv/bulk-csv-docs.html">Dataset</a></p>
+<p><a href="https://www.usapowerlifting.com/drug-testing/">USAPL Policies and resources on Anti-Doping</a></p>
+<p><a href="https://www.powerlifting.sport/anti-doping/ipf-anti-doping-rules#:~:text=The%20IPF%20Anti%2DDoping%20Rules%20apply%20to%20the%20IPF%2C%20to,to%20be%20bound%20by%20these">IPF Doping policies</a></p>
+<p><a href="https://barbend.com/breaking-down-powerlifting-federations/">Powerlifting Federations</a></p>
+<p><a href="https://www.strongerbyscience.com/steroids-for-strength-sports/">Drug Testing in Strength Sports</a></p>
+<p><a href="https://www.strongerbyscience.com/your-drug-free-muscle-and-strength-potential-part-1/">Drug Free Muscle and Strength Potential</a></p>
+<p><a href="https://www.strongerbyscience.com/strength-training-women/">Sex Differences in Training : Muscle and Strength</a></p>
+<p><a href="https://www.barbellmedicine.com/blog/shades-of-gray-sex-gender-and-fairness-in-sport/">A More Rigorous Analysis of Sex differences in Sports: "Shades of Gray: Sex, Gender, and Fairness in Sport"</a></p>
 
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
@@ -14295,30 +14303,6 @@ a.anchor-link {
      </div>
 </div>
 </div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>C:\Users\Alex\AppData\Roaming\Python\Python38\site-packages\IPython\core\interactiveshell.py:3165: DtypeWarning: Columns (33,38) have mixed types.Specify dtype option on import or set low_memory=False.
-  has_raised = await self.run_ast_nodes(code_ast.body, cell_name,
-C:\Users\Alex\AppData\Roaming\Python\Python38\site-packages\IPython\core\interactiveshell.py:3165: DtypeWarning: Columns (33,35,38) have mixed types.Specify dtype option on import or set low_memory=False.
-  has_raised = await self.run_ast_nodes(code_ast.body, cell_name,
-</pre>
-</div>
-</div>
-
-</div>
-
 </div>
 
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -14357,8 +14341,8 @@ C:\Users\Alex\AppData\Roaming\Python\Python38\site-packages\IPython\core\interac
 <span class="n">test_feds</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">(</span><span class="n">feds</span><span class="p">)</span>
 <span class="n">lab</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;tested&quot;</span><span class="p">,</span> <span class="s2">&quot;untested&quot;</span><span class="p">,</span> <span class="s2">&quot;uspa_all&quot;</span><span class="p">,</span> <span class="s2">&quot;uspa_untested&quot;</span><span class="p">,</span> <span class="s2">&quot;uspa_tested&quot;</span><span class="p">,</span><span class="s2">&quot;usapl_all&quot;</span><span class="p">,</span> <span class="s2">&quot;usapl_untested&quot;</span><span class="p">,</span> <span class="s2">&quot;usapl_tested&quot;</span><span class="p">,</span><span class="s2">&quot;ipf_all&quot;</span><span class="p">,</span> <span class="s2">&quot;ipf_untested&quot;</span><span class="p">,</span> <span class="s2">&quot;ipf_tested&quot;</span><span class="p">]</span>
 <span class="n">info</span> <span class="o">=</span> <span class="p">[</span><span class="n">tested</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">untested</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span><span class="n">uspa</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">uspa_untested</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span><span class="n">uspa_tested</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span><span class="n">usapl</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">usapl_untested</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">usapl_tested</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span><span class="n">ipf</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">ipf_untested</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">ipf_tested</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span>
-<span class="n">d</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;DF&quot;</span><span class="p">:</span><span class="n">lab</span><span class="p">,</span> <span class="s2">&quot;N_obs&quot;</span><span class="p">:</span> <span class="n">info</span><span class="p">}</span>
-<span class="n">desc_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">d</span><span class="p">)</span><span class="o">.</span><span class="n">style</span><span class="o">.</span><span class="n">set_caption</span><span class="p">(</span><span class="s1">&#39;Description of Data Subsets&#39;</span><span class="p">)</span>
+<span class="n">d</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;DataSet&quot;</span><span class="p">:</span><span class="n">lab</span><span class="p">,</span> <span class="s2">&quot;N_obs&quot;</span><span class="p">:</span> <span class="n">info</span><span class="p">}</span>
+<span class="n">desc_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">d</span><span class="p">)</span>
 
 <span class="n">desc_df</span>
 </pre></div>
@@ -14381,64 +14365,87 @@ C:\Users\Alex\AppData\Roaming\Python\Python38\site-packages\IPython\core\interac
 
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<style  type="text/css" >
-</style><table id="T_67c4c_" ><caption>Description of Data Subsets</caption><thead>    <tr>        <th class="blank level0" ></th>        <th class="col_heading level0 col0" >DF</th>        <th class="col_heading level0 col1" >N_obs</th>    </tr></thead><tbody>
-                <tr>
-                        <th id="T_67c4c_level0_row0" class="row_heading level0 row0" >0</th>
-                        <td id="T_67c4c_row0_col0" class="data row0 col0" >tested</td>
-                        <td id="T_67c4c_row0_col1" class="data row0 col1" >404127</td>
-            </tr>
-            <tr>
-                        <th id="T_67c4c_level0_row1" class="row_heading level0 row1" >1</th>
-                        <td id="T_67c4c_row1_col0" class="data row1 col0" >untested</td>
-                        <td id="T_67c4c_row1_col1" class="data row1 col1" >102779</td>
-            </tr>
-            <tr>
-                        <th id="T_67c4c_level0_row2" class="row_heading level0 row2" >2</th>
-                        <td id="T_67c4c_row2_col0" class="data row2 col0" >uspa_all</td>
-                        <td id="T_67c4c_row2_col1" class="data row2 col1" >78856</td>
-            </tr>
-            <tr>
-                        <th id="T_67c4c_level0_row3" class="row_heading level0 row3" >3</th>
-                        <td id="T_67c4c_row3_col0" class="data row3 col0" >uspa_untested</td>
-                        <td id="T_67c4c_row3_col1" class="data row3 col1" >60636</td>
-            </tr>
-            <tr>
-                        <th id="T_67c4c_level0_row4" class="row_heading level0 row4" >4</th>
-                        <td id="T_67c4c_row4_col0" class="data row4 col0" >uspa_tested</td>
-                        <td id="T_67c4c_row4_col1" class="data row4 col1" >18220</td>
-            </tr>
-            <tr>
-                        <th id="T_67c4c_level0_row5" class="row_heading level0 row5" >5</th>
-                        <td id="T_67c4c_row5_col0" class="data row5 col0" >usapl_all</td>
-                        <td id="T_67c4c_row5_col1" class="data row5 col1" >119219</td>
-            </tr>
-            <tr>
-                        <th id="T_67c4c_level0_row6" class="row_heading level0 row6" >6</th>
-                        <td id="T_67c4c_row6_col0" class="data row6 col0" >usapl_untested</td>
-                        <td id="T_67c4c_row6_col1" class="data row6 col1" >0</td>
-            </tr>
-            <tr>
-                        <th id="T_67c4c_level0_row7" class="row_heading level0 row7" >7</th>
-                        <td id="T_67c4c_row7_col0" class="data row7 col0" >usapl_tested</td>
-                        <td id="T_67c4c_row7_col1" class="data row7 col1" >119219</td>
-            </tr>
-            <tr>
-                        <th id="T_67c4c_level0_row8" class="row_heading level0 row8" >8</th>
-                        <td id="T_67c4c_row8_col0" class="data row8 col0" >ipf_all</td>
-                        <td id="T_67c4c_row8_col1" class="data row8 col1" >6049</td>
-            </tr>
-            <tr>
-                        <th id="T_67c4c_level0_row9" class="row_heading level0 row9" >9</th>
-                        <td id="T_67c4c_row9_col0" class="data row9 col0" >ipf_untested</td>
-                        <td id="T_67c4c_row9_col1" class="data row9 col1" >12</td>
-            </tr>
-            <tr>
-                        <th id="T_67c4c_level0_row10" class="row_heading level0 row10" >10</th>
-                        <td id="T_67c4c_row10_col0" class="data row10 col0" >ipf_tested</td>
-                        <td id="T_67c4c_row10_col1" class="data row10 col1" >6037</td>
-            </tr>
-    </tbody></table>
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>DataSet</th>
+      <th>N_obs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>tested</td>
+      <td>404127</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>untested</td>
+      <td>102779</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>uspa_all</td>
+      <td>78856</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>uspa_untested</td>
+      <td>60636</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>uspa_tested</td>
+      <td>18220</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>usapl_all</td>
+      <td>119219</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>usapl_untested</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>usapl_tested</td>
+      <td>119219</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>ipf_all</td>
+      <td>6049</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>ipf_untested</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>ipf_tested</td>
+      <td>6037</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 </div>
 
 </div>
@@ -14478,31 +14485,11 @@ C:\Users\Alex\AppData\Roaming\Python\Python38\site-packages\IPython\core\interac
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
 
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">AttributeError</span>                            Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-176-77e6e09e9ed7&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-fg">      2</span> <span class="ansi-green-intense-fg ansi-bold">import</span> seaborn <span class="ansi-green-intense-fg ansi-bold">as</span> sns
-<span class="ansi-green-fg">      3</span> plt<span class="ansi-yellow-intense-fg ansi-bold">.</span>figure<span class="ansi-yellow-intense-fg ansi-bold">(</span>figsize <span class="ansi-yellow-intense-fg ansi-bold">=</span> <span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-cyan-intense-fg ansi-bold">14</span><span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-cyan-intense-fg ansi-bold">14</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 4</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>toplot <span class="ansi-yellow-intense-fg ansi-bold">=</span> desc_df<span class="ansi-yellow-intense-fg ansi-bold">.</span>iloc<span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-cyan-intense-fg ansi-bold">2</span><span class="ansi-yellow-intense-fg ansi-bold">:</span><span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-yellow-intense-fg ansi-bold">]</span>
-<span class="ansi-green-fg">      5</span> bar1 <span class="ansi-yellow-intense-fg ansi-bold">=</span> sns<span class="ansi-yellow-intense-fg ansi-bold">.</span>barplot<span class="ansi-yellow-intense-fg ansi-bold">(</span>x <span class="ansi-yellow-intense-fg ansi-bold">=</span> <span class="ansi-blue-intense-fg ansi-bold">&#34;DF&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> y <span class="ansi-yellow-intense-fg ansi-bold">=</span> <span class="ansi-blue-intense-fg ansi-bold">&#34;N_obs&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> data <span class="ansi-yellow-intense-fg ansi-bold">=</span> toplot<span class="ansi-yellow-intense-fg ansi-bold">,</span> color <span class="ansi-yellow-intense-fg ansi-bold">=</span> <span class="ansi-blue-intense-fg ansi-bold">&#34;darkblue&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">      6</span> plt<span class="ansi-yellow-intense-fg ansi-bold">.</span>title<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#34;Number of Observations in Each Subset&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-
-<span class="ansi-red-intense-fg ansi-bold">AttributeError</span>: &#39;Styler&#39; object has no attribute &#39;iloc&#39;</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
 
-
-
-<div class="jp-RenderedText jp-OutputArea-output " data-mime-type="text/plain">
-<pre>&lt;Figure size 1008x1008 with 0 Axes&gt;</pre>
+<div class="jp-RenderedImage jp-OutputArea-output ">
+<img src="data:image/png;base64,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ABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhAuAIAABhgLuGqqg6sqvdU1Seq6vyqekIv37eqzqiqz/R/b9TLq6peVFXrquq8qrr9zLaO6ct/pqqOmSm/Q1V9rK/zoqqq1T9SAABgVzGvnqsrkzyxtXZYkjsleUxVHZbkKUne1Vo7NMm7+vskuVeSQ/vruCQvS6YwluT4JHdMckSS4zcGsr7Mo2bWO2oVjgsAANhFzSVctda+2Fr7cJ/+epILkuyf5OgkJ/fFTk5ynz59dJJXtsmZSfapqpsluWeSM1prG1prlyc5I8lRfd5erbUzW2styStntgUAADDc3O+5qqqDkvxckrOS3LS19sU+60tJbtqn909y0cxqF/eyzZVfvEj5Yvs/rqrWVtXa9evXb9vBAAAAu6y5hququkGSNyX5o9baFbPzeo9TW+k6tNZOaK0d3lo7fM2aNSu9OwAAYCc1t3BVVdfOFKxe01p7cy/+ch/Sl/7vpb38kiQHzqx+QC/bXPkBi5QDAACsiHk9LbCSnJjkgtba387MOjXJxif+HZPkrTPlD+tPDbxTkq/14YOnJ7lHVd2oP8jiHklO7/OuqKo79X09bGZbAAAAw+0+p/3eOclDk3ysqs7tZX+W5HlJ3lBVxyb5fJIH9HmnJbl3knVJvpXkEUnSWttQVc9Kck5f7pmttQ19+g+TvCLJdZO8o78AAABWxFzCVWvtv5Ns6u9O3X2R5VuSx2xiWyclOWmR8rVJbrsN1QQAAFiyuT8tEAAAYGcgXAEAAAwgXAEAAAwgXAEAAAwgXAEAAAwwr0exA6tk332fNu8qbJc2bHjOvKsAAOxk9FwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMIFwBAAAMsPu8KwAAsKPbd9+nzbsK26UNG54z7yqwGc7bH7Wt56yeKwAAgAGEKwAAgAGEKwAAgAGEKwAAgAGEKwAAgAGEKwAAgAGEKwAAgAGEKwAAgAGEKwAAgAGEKwAAgAGEKwAAgAGEKwAAgAGEKwAAgAGEKwAAgAGEKwAAgAGEKwAAgAGEKwAAgAGEKwAAgAGEKwAAgAGEKwAAgAGEKwAAgAGEKwAAgAGEKwAAgAGEKwAAgAGEKwAAgAGEKwAAgAGEKwAAgAGEKwAAgAGEKwAAgAGEKwAAgAGEKwAAgAGEKwAAgAF26nBVVUdV1aeqal1VPWXe9QEAAHZeO224qqrdkrwkyb2SHJbkwVV12HxrBQAA7Kx22nCV5Igk61prF7bWvpfklCRHz7lOAADATmpnDlf7J7lo5v3FvQwAAGC4aq3Nuw4roqrul+So1trv9fcPTXLH1tpjFyx3XJLj+tufTPKpVa3o8u2X5CvzrsROStuuHG27crTtytCuK0fbrhxtu3K07crZkdr2Fq21NYvN2H21a7KKLkly4Mz7A3rZNbTWTkhywmpVapSqWttaO3ze9dgZaduVo21XjrZdGdp15WjblaNtV462XTk7S9vuzMMCz0lyaFUdXFV7JHlQklPnXCcAAGAntdP2XLXWrqyqxyY5PcluSU5qrZ0/52oBAAA7qZ02XCVJa+20JKfNux4rZIcbyrgD0bYrR9uuHG27MrTrytG2K0fbrhxtu3J2irbdaR9oAQAAsJp25nuuAAAAVo1wBQAAMIBwtYuqqs9V1X59+hvzrs/2rqpuV1X3Xua6+1TVHy5jvadX1ZOWs8/tzXLbYGb9P6qq623lOkdW1duWu88d2XI/0xvXq6qDqurjY2s1f6O/6/o59ovLXPegqvqdZaz3iv53HHcIm2vz5bbBzPp/tox1Hl5VL17uPldbVf3PEpa5f1VdUFXv2cpt//BzviN+X65k22xhm/epqsOWue6yriWq6r1VNfdHlI9o813hekq4gqW5XZJlfRkk2SfJsoPFTmKfbFsb/FGSrQpXsAqOTLKscJXkoCTLDhY7iYOybW2w1eFqR9NaW8r5dWySR7XW7rrS9dmezLFt7pNkWeEq23YtMXeD2vx22cmvp4SrVbTwt8FV9aSeph9fVZ+oqvOq6pQ+7+lV9aqq+mBVfaaqHtXLb1BV76qqD1fVx6rq6C3s89+q6kNVdX5VHbeyR7g8q90um9pfn35vVT2/qs6uqk9X1S/3v5P2zCQPrKpzq+qBVXX9qjqpL/eRjfurqtv0snN7vQ9N8rwkt+xlL+jLPbmqzunLPGOmLk/r+/3vJD85rpWX1gYreC4uqQ16u769qj5aVR/vbf34JDdP8p6Nvwmrqnv0+ny4qv61qm7Qy4+qqk9W1YeT/PYKNN0QW9n+R/Rj/UhV/U9V/WQvf3hVvbWfs5+pquOXuO+t+g5ZTXNul2v85r6qXlxVD+/Tn6uqZ8y02a2r6qAkj07yx/28/uWqWlNVb+rn9TlVdee+/q/0Zc7t9b1hps/EL/eyP66q3arqBTOfid/v61avy6eq6j+T3GRAU88e99zafCva4GZV9b6+3Md7Wz8vyXV72Wv6cg+pq79//6mqduvlj6jpe/XsJHce13orr67uTT6yt8Hb+7nwj1V1rar6iyS/lOTE6t+ti2zjoKp6fz9/P1zL7G3d3gxqm2v0ZFbV26rqyI3br6rn1PT/0ZlVddPedr+V5AX9PLtlf/1HTdda76+qW/f179/P14/2+m3NtcR1q+qUmnqA3pLkuivWkFthW9t8K9tgh7ieWlRrzWuVXpl+S/fxmfdPSvL0JF9Ismcv26f/+/QkH830gdovyUWZLjB3T7JXX2a/JOvSn/q4iX3u2/+9bpKPJ7lxf/+5JPv16W/sSu2yqf316fcm+Zs+fe8k/9mnH57kxTPrPDfJQzbWLcmnk1w/yT8k+d1evkev58L93SPT40Yr0y843pbkLknukORjmXpo9urH8KSdtM031Qb/J8k/zyy39yLn635J3pfk+v39nyb5iyTX6XU7tG/3DUneNs9ze1D775Vk9z79q0neNHNOfjHJjXP15/vwPm+Tn+nN/dw2rrewfrtIuxw5e74keXGSh8+cf4/r03+Y5F9mPhtPmlnntUl+qU//eJIL+vS/J7lzn75B/xks3N9xSf68T++ZZG2SgzP9kuCMTH+v8eZJvprkfjtpm2+qDZ6Y5Gm9fLckN1y47SQ/1dv52v39S5M8LMnNkvxvkjWZvpM/kJnv8u39las/k0cm+U6Sn+htcMbG8yDT/1uHb2Yb10tynT59aJK1C3/2C38WO8JrUNs8PNf8v/1tSY7s0y3Jb/bpv5o5N18x+xlM8q4kh/bpOyZ5d5/+WJL9+/Q+m9jfpq4l/m+mv8+aJD+T5MrNHccO3uY79PXUYq+d+u9c7UDOS/Kaqvq3JP82U/7W1tq3k3y7pt/YH5Hk7UmeW1V3SfKDJPsnuWmSL21i24+vqvv26QMzfbFeNvwIVsZKtsvmvLn/+6FMH+TF3CPJb9XVY3ivk+li6oNJnlZVByR5c2vtM1W12Lr3SPKR/v4GmX4uN0zyltbat5Kkqk5dRt231Wq1+aba4P1J/qaqnp/pP/r3L7LunTINyfhAb9s9MrX7rZN8trX2mSSpqldnuljbkSzW/nsnObn/1q4lufbM8me01i5Lkqp6c6bfGK7dwj4q4z4rq2U12mVLZr8XNtUr+qtJDpv5zO9VU6/qB5L8be9heXNr7eJNfC/8TF19P9XemT4Td0nyutbaVUm+UFXv3sbjWKp5tPmm2uCcJCdV1bWT/Ftr7dxF1r17pguqc3rbXjfJpZkudt/bWlvf6/b6JLfaynptL85urV2YJFX1ukxt/MYlrHftJC+uqtsluSo77vFvznLbZnO+l+liPZk+97+2cIH++f7FJP8685nes//7gSSvqKo35Orvj4U2dS1xlyQvSpLW2nlVdd62HcqKGNXmO931lHC1uq7MNYdiXqf/++uZPki/melE+ule3has35L8bqbfwN2htfb9qvrczHauoXdt/2qSX2itfauq3rupZedsVdtlM/vb6Lv936uy6c9IJfk/rbVPLSi/oKrO6nU/raZhLRcusu5fttb+6RqFVX+0iX2thNVu84UWbYMkqarbZ+o1fHZVvau19sxF1j2jtfbgBevdbon73h5sTfs/K8l7Wmv3rWko2ntn1lvs57Il2/JzW2nzbJcR3wvXSnKn1tp3FpQ/r6renum8/kBV3XORdStT79jp1yhc5o3fW2Gebb7Qom2QJP2XAb+e6WL1b1trr1xk3ZNba09dsN59llGP7dVy2/iPk3w5yc9m+lkvPD93Bsttm8197r/fevdINv25v1aSr7bWbvcjFWrt0VV1x0zn7Yeq6g6LrL/otcQiIWJ7NOIzn+z411M/wj1Xq+vLSW5SVTeuqj2T/Eamn8GBrbX3ZBretHem5J0kR1fVdarqxpm6YM/p8y/tF0V3TXKLzexv7ySX92B160y/8d8erXa7LLa/Lfl6pt+EbHR6ksdV/wasqp/r//5Ekgtbay9K8tZM3fmLrfvIuvo+of2r6iaZhrrdp6ax1jfMdFGzUla7zZfUBlV18yTfaq29OskLktx+kfXPTHLnqjqkr3v9qrpVkk8mOaiqbtmXu0b42s5sTfvvneSSvt7DF2zn16pq36q6bqabrD+whH1vzc9ttc2zXT6fqddpz6raJ1NPyJYsPK/fmeRxG99sDPxVdcvW2sdaa8/P9Nm59SLrnp7kD3rvTKrqVlV1/UzfCw+s6X6kmyUZ/dCCebb5ktqgqm6R5MuttX9O8i+5+nvh+xuXzTQ06379uzS9LrdIclaSX+nHd+0k919CvbZXR1TVwVV1rSQPTPLfS1xv7yRfbK39IMlDMw3j2tkst20+l+R2Nd0vdGCmURlb8sPztrV2RZLPVtX9kx/eI/mzffqWrbWzWmt/kWR9ptFDS7qWyPS5/51edttM1xLbm+W2+c52PfUj9Fyton4x88wkZ2f6D+qTmb7kXl1Ve2dK4C9qrX21n2PnJXlPpvsintVa+0JNw0r+vao+lmnIxSc3s8v/SPLoqrogyacyXZRud1a7XTaxvy15T5KnVNW5Sf4y029w/y7Jef2L5bOZLkoekOShVfX9TMOsntta21BVH6jppvF3tNaeXFU/leSD/Xi+kWm88YdrGrLy0UzDWc5ZSvstxxza/LKltEGSQzLdKPyDJN9P8gd9Eyck+Y+q+kJr7a41PWjgdf1iMJnGwn+6poe2vL2qvpVpiOHsl/B2Yyvb/68yDcX680xDMWedneRNSQ5I8urW2lKGYW3Nd8iqmme7tNYuqmn4zsczfZ4/soVVkukenzfWdAP245I8PslLahrCs3um/+AfneSPepD9QZLzk7yjT19VVR/NdA/H32cahvzhfpGxPlNIeUuSuyX5RKZ7hz64hHot2ZzPxfOytDY4MsmT+/fqNzLdS5VM3wvnVdWHW2u/2+v1zv6d/P0kj2mtnVnTA4s+mOl+tXOX3jrbnXMy3Qt4SKbv47cscb2XJnlTVT0s03XBN1emenO13Lb5QKbP+yeSXJDkw0tY55Qk/1zTw5bul2k0wMv6+XftPv+jmf4v23gP8Lt62f9madcSL0vy8n79dkGmYYnbm+W2+U51PbWYjTcxs53p/xl8o7X21/Ouy/ZEu6w+bb596gHz8NbaY+ddl+2Jdll92nzl1TTM/0mttaWMtNilaJvVp803z7BAAACAAfRc7QRqug/mXYvMuvvGpzftirTL6tPm24+aHkDwqgXF322t3XEe9dleaJfVp81XR00PSnn+guLPttbuu9jyuxJts/p25TYXrgAAAAYwLBAAAGAA4QoAAGAA4QoAklTVVVV1blWdX1Ufraon9kcDp6qOrKqv9fnnVtV/zru+AGx//J0rAJh8u7V2uyTpf4jytUn2SnJ8n/9+jx4GYHP0XAHAAq21S5Mcl+Sx/Q/aAsAWCVcAsIjW2oVJdktyk170yzPDAp82x6oBsJ0yLBAAlsawQAA2S88VACyiqn4iyVVJLp13XQDYMQhXALBAVa1J8o9JXtxaa/OuDwA7BsMCAWBy3ao6N8m1k1yZ5FVJ/nauNQJgh1J+IQcAALDtDAsEAAAYQLgCAAAYQLgCAAAYQLgCAAAYQLgCAAAYQLgCAAAYQLgCAAAYQLgCAAAY4P8BVGi0T5rroeYAAAAASUVORK5CYII="
+>
 </div>
 
 </div>
